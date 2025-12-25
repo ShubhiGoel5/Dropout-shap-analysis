@@ -1,11 +1,11 @@
 # An Interpretable Machine Learning Approach to Predict Student Dropout
 
-#Project Overview:
+**Project Overview:**
 
 Student dropout is a major challenge in higher education, impacting academic outcomes and institutional planning. This project builds a machine learning–based classification system to predict whether a student is likely to drop out, remain enrolled, or graduate, using historical academic and enrollment data.
 The project goes beyond prediction accuracy by integrating explainable AI techniques (SHAP and LIME) to interpret model decisions, making the results actionable and trustworthy for academic stakeholders.
 
-#Dataset:
+**Dataset:**
 
 Name: Students Dropout and Academic Success
 
@@ -19,14 +19,14 @@ The dataset contains anonymized student records including: Demographic attribute
                                                            Financial information (e.g., tuition payment status)
                                                            Academic performance indicators from multiple semesters
 
-#Objective:
+**Objective:**
 
 To develop a machine learning model that:
 Predicts student dropout risk with high reliability
 Identifies the most influential factors affecting dropout
 Provides clear, interpretable explanations for each prediction
 
-#Methodology:
+**Methodology:**
 
 1. Data Preprocessing- Data cleaning and transformation
                        Encoding categorical features
@@ -43,7 +43,7 @@ Provides clear, interpretable explanations for each prediction
                         SHAP summary, dependence, and waterfall plots
                         LIME applied for instance-level prediction explanations
 
-#Key Findings:
+**Key Findings:**
 
 Explainability analysis revealed that student dropout risk is strongly influenced by: Age at enrollment
                                                                                       Course and academic program type
@@ -53,7 +53,7 @@ Explainability analysis revealed that student dropout risk is strongly influence
                                                                                       
 Ensemble-based classifiers demonstrated strong predictive performance, while SHAP and LIME confirmed that predictions were driven by meaningful academic and financial features.
 
-#Tech Stack:
+**Tech Stack:**
 
 Programming Language: Python
 
@@ -65,7 +65,7 @@ Machine Learning: Scikit-learn, XGBoost, CatBoost
 
 Explainability: SHAP, LIME
 
-#Repository Contents:
+**Repository Contents:**
 
 Jupyter Notebook(s) containing:
 
@@ -74,7 +74,7 @@ Model training and evaluation
 SHAP and LIME explainability analysis
 Dataset file (students_dropout_academic_success.csv)
 
-#Use Case:
+**Use Case:**
 
 This project can assist educational institutions in:
 
